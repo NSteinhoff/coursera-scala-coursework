@@ -1,0 +1,14 @@
+[0m[[0minfo[0m] [0m[32mFunSetSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- contains is implemented[0m[0m
+[0m[[0minfo[0m] [0m[32m- singletonSet(1) contains 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- singletonSet(2) contains 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- union contains all elements of each set[0m[0m
+[0m[[0minfo[0m] [0m[32m- intersect contains only 2[0m[0m
+[0m[[0minfo[0m] [0m[32m- diff contains only 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- filter contains only 2[0m[0m
+[0m[[0minfo[0m] [0m[32m- test only bounded values[0m[0m
+[0m[[0minfo[0m] [0m[32m- none exist in set[0m[0m
+[0m[[0minfo[0m] [0m[32m- some exist in set[0m[0m
+[0m[[0minfo[0m] [0m[32m- singletonSet(1) * 3 contains 3[0m[0m
+[0m[[0minfo[0m] [0m[31m- singletonSet(1) + 1000 not in bounds *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  FunSets.contains(FunSets.map($anon.this.s1, ((x: Int) => x.+(1000))), 1001) was true 1001 not exist (FunSetSuite.scala:179)[0m[0m

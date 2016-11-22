@@ -1,0 +1,21 @@
+[0m[[0minfo[0m] [0m[32mHuffmanSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- weight of a leaf[0m[0m
+[0m[[0minfo[0m] [0m[32m- weight of a larger tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- chars of a leaf[0m[0m
+[0m[[0minfo[0m] [0m[32m- chars of a larger tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- string2chars("hello, world")[0m[0m
+[0m[[0minfo[0m] [0m[32m- times("hello, world")[0m[0m
+[0m[[0minfo[0m] [0m[32m- makeOrderedLeafList for some frequency table[0m[0m
+[0m[[0minfo[0m] [0m[32m- singleton of empty list[0m[0m
+[0m[[0minfo[0m] [0m[32m- singleton of list of one tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- singleton of list of two trees[0m[0m
+[0m[[0minfo[0m] [0m[32m- combine of some leaf list[0m[0m
+[0m[[0minfo[0m] [0m[32m- combine of some leaf list with shuffle[0m[0m
+[0m[[0minfo[0m] [0m[32m- until(singleton, combine) of some leaf list[0m[0m
+[0m[[0minfo[0m] [0m[32m- createCodeTree("abbccc")[0m[0m
+[0m[[0minfo[0m] [0m[32m- decode small tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- encode small tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- decode and encode a very short text should be identity[0m[0m
+[0m[[0minfo[0m] [0m[32m- codeBits small CodeTable[0m[0m
+[0m[[0minfo[0m] [0m[32m- convert tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- quickEncode small tree[0m[0m
