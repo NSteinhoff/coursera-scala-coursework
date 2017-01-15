@@ -18,7 +18,7 @@ class BloxorzSuite extends FunSuite {
      */
     def solve(ls: List[Move]): Block = {
       ls.foldLeft(startBlock) { case (block, move) =>
-        require(!block.isLegal) // The solution must always lead to legal blocks
+        require(block.isLegal) // The solution must always lead to legal blocks
         move match {
           case Left => block.left
           case Right => block.right
